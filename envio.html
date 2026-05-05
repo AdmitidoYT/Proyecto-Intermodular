@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zona Envío - Reacondicionados</title>
+    <script src="./script/general.js"></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="section active">
+        <h2>📦 Envío de "Basura Electrónica"</h2>
+
+        <div class="cards">
+
+            <div class="card" style="width: 500px; max-width: 90%;">
+
+                <form>
+
+                    <p>Nombre completo</p>
+                    <input type="text" class="nav-btn" style="width:100%; margin-bottom:10px;" required>
+
+                    <p>Correo electrónico</p>
+                    <input type="email" class="nav-btn" style="width:100%; margin-bottom:10px;" required>
+
+                    <p>Teléfono</p>
+                    <input type="tel" class="nav-btn" style="width:100%; margin-bottom:10px;">
+
+                    <p>Tipo de dispositivo</p>
+                    <select class="nav-btn" style="width:100%; margin-bottom:10px;">
+                        <option>Selecciona</option>
+                        <option>Ordenador de sobremesa</option>
+                        <option>Portátil</option>
+                        <option>Servidor</option>
+                        <option>Otro</option>
+                    </select>
+
+                    <p>Estado del equipo</p>
+                    <select class="nav-btn" style="width:100%; margin-bottom:10px;">
+                        <option>Selecciona</option>
+                        <option>Funciona perfectamente</option>
+                        <option>Funciona con fallos</option>
+                        <option>No funciona</option>
+                    </select>
+
+                    <p>¿Incluye componentes?</p>
+                    <select class="nav-btn" style="width:100%; margin-bottom:10px;">
+                        <option>No</option>
+                        <option>Sí (RAM, GPU, etc.)</option>
+                    </select>
+
+                    <p>Dirección de recogida</p>
+                    <input type="text" class="nav-btn" style="width:100%; margin-bottom:10px;" required>
+
+                    <p>Comentarios adicionales</p>
+                    <textarea class="nav-btn" style="width:100%; height:100px; margin-bottom:15px;"></textarea>
+
+                    <button class="nav-btn" style="width:100%;">
+                        Enviar solicitud 🚀
+                    </button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+        <br>
+
+        <button class="nav-btn" onclick="window.location.href='index.html'">
+            ← Volver al inicio
+        </button>
+
+    </section>
+
+</body>
+
+</html>
